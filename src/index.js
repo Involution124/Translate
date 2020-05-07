@@ -6,7 +6,7 @@ import { render } from "react-dom";
 
 render(
   
-	<Provider store={store}>
+  <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById('root')
